@@ -1,0 +1,1 @@
+python script.py DatosProyecto/Prueba8.txt
