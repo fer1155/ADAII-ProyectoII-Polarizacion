@@ -97,7 +97,7 @@ solve minimize total_polarization;
 % *************************
 
 output [
-    show(total_polarization) ++ "\n", % polarizacion final
+    show(round(total_polarization * 1000.0)) ++ "\n", % polarizacion final
     "1\n", % nivel de resistencia baja (1)
 
     % matriz de movimientos para resistencia baja (k=1)
